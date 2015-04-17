@@ -27,6 +27,11 @@
                     <field name="NUM">10</field>
                   </block>
                 </value>
+                <next>
+                  <block type="oled_drawtext" id="88">
+                    <field name="TEXT">do you like stuff</field>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
