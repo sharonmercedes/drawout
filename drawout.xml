@@ -1,34 +1,34 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="9" x="297" y="94">
+  <block type="oled_cleardisplay" id="1" x="297" y="94">
     <next>
-      <block type="oled_setcursor" id="18" inline="true">
+      <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="25">
+          <block type="math_number" id="3">
             <field name="NUM">10</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="32">
+          <block type="math_number" id="4">
             <field name="NUM">10</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="41">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">like fluff</field>
             <next>
-              <block type="oled_setcursor" id="57" inline="true">
+              <block type="oled_setcursor" id="6" inline="true">
                 <value name="STARTX">
-                  <block type="math_number" id="64">
+                  <block type="math_number" id="7">
                     <field name="NUM">20</field>
                   </block>
                 </value>
                 <value name="STARTY">
-                  <block type="math_number" id="79">
+                  <block type="math_number" id="8">
                     <field name="NUM">20</field>
                   </block>
                 </value>
                 <next>
-                  <block type="oled_drawtext" id="88">
+                  <block type="oled_drawtext" id="9">
                     <field name="TEXT">do you like stuff</field>
                   </block>
                 </next>
