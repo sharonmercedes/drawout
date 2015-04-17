@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="41">
-            <field name="TEXT">how are you</field>
+            <field name="TEXT">im tired i am working all day</field>
           </block>
         </next>
       </block>
